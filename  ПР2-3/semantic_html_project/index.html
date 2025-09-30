@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Семантическая верстка - Сайт поликлиники</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="clinic-title">
+                Поликлиника "Добро и позитив" 
+            </h1>
+            <p class="subtitle">
+                Забота о вашем здоровье, но не кошельке
+            </p>
+        </header>
+        
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#stomatology" class="nav-link">Стоматология</a></li>
+                <li class="nav-item"><a href="#pediatry" class="nav-link">Педиатрия</a></li>
+                <li class="nav-item"><a href="#nevrology" class="nav-link">Неврология</a></li>
+                <li class="nav-item"><a href="#cardiology" class="nav-link">Кардиология</a></li>
+                <li class="nav-item"><a href="#schedule" class="nav-link">Расписание</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+        
+        <main class="content">
+            <article id="stomatology" class="service-article">
+                <header class="article-header">
+                    <h2 class="article-title">Современная стоматология без боли и стресса</h2>
+                </header>
+
+                <section class="article-section">
+                    <h3 class="section-title">Наши услуги</h3>
+                    <p class="section-text">Уточняйте по номеру 8 800 555 35 35</p>
+                    <figure class="article-figure">
+                        <img src="https://1bc36e3a-dedf-4fce-8a5f-21ce4a2f214b.selstorage.ru/resize_cache/27957/c36c8c62326912345dc852a8fdbadd34/iblock/a89/a89ce56dad574fc54ad34a83fbc54349/52b27ec2b6503431fcb93f7d29fe06ca.jpg" alt="Современный стоматологический кабинет" class="article-image">
+                        <figcaption class="image-caption">Наш стоматологический кабинет оснащен новейшим оборудованием</figcaption>
+                    </figure>
+                </section>
+
+                <section class="article-section">
+                    <h3 class="section-title">Преимущества</h3>
+                    <p class="section-text">Безболезненное лечение, гарантия на все виды работ, индивидуальный подход к каждому пациенту.</p>
+                </section>
+                
+                <footer class="article-footer">
+                    <p class="author">Автор: Смирнова А.А.</p>
+                    <address class="contact-email">Email: yandex@mail.ru</address>
+                </footer>
+            </article>
+
+            <article id="pediatry" class="service-article">
+                <h2 class="article-title">Педиатрия: забота о здоровье ваших детей</h2>
+                <p class="section-text">Комплексное медицинское наблюдение детей от рождения до 18 лет.</p>
+                <details class="service-details">
+                    <summary class="details-summary">Основные направления работы</summary>
+                    <p class="details-text">Профилактические осмотры, вакцинация, лечение детских заболеваний, консультации по развитию и питанию.</p>
+                </details>
+            </article>
+
+            <article id="nevrology" class="service-article">
+                <h2 class="article-title">Неврологическая помощь</h2>
+                <p class="section-text">Диагностика и лечение заболеваний нервной системы у взрослых и детей.</p>
+                <details class="service-details">
+                    <summary class="details-summary">Мы помогаем при</summary>
+                    <p class="details-text">головных болях, болях в спине, нарушениях сна, головокружениях, последствиях инсультов.</p>
+                </details>
+            </article>
+
+            <article id="cardiology" class="service-article">
+                <h2 class="article-title">Кардиология</h2>
+                <p class="section-text">Профилактика, диагностика и лечение заболеваний сердечно-сосудистой системы.</p>
+                <details class="service-details">
+                    <summary class="details-summary">Диагностические возможности</summary>
+                    <p class="details-text">ЭКГ, УЗИ сердца, суточное мониторирование ЭКГ и артериального давления, нагрузочные тесты.</p>
+                </details>
+            </article>
+
+            <article id="schedule" class="schedule-article">
+                <h2 class="article-title">Расписание приема врачей</h2>
+                <table class="schedule-table">
+                    <thead class="table-header">
+                        <tr class="header-row">
+                            <th class="table-head">Специальность</th>
+                            <th class="table-head">Понедельник-Пятница</th>
+                            <th class="table-head">Суббота</th>
+                            <th class="table-head">Кабинет</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                        <tr class="table-row">
+                            <td class="table-cell">Стоматолог</td>
+                            <td class="table-cell">09:00 - 15:00</td>
+                            <td class="table-cell">10:00 - 14:00</td>
+                            <td class="table-cell">105</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-cell">Педиатр</td>
+                            <td class="table-cell">08:00 - 16:00</td>
+                            <td class="table-cell">09:00 - 13:00</td>
+                            <td class="table-cell">203</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-cell">Невролог</td>
+                            <td class="table-cell">10:00 - 17:00</td>
+                            <td class="table-cell">-</td>
+                            <td class="table-cell">307</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-cell">Кардиолог</td>
+                            <td class="table-cell">11:00 - 18:00</td>
+                            <td class="table-cell">10:00 - 15:00</td>
+                            <td class="table-cell">412</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div class="card info-card">
+                <h3 class="card-title">Полезная информация</h3>
+                <ul class="info-list">
+                    <li class="info-item"><a href="#schedule" class="info-link">График работы врачей</a></li>
+                    <li class="info-item"><a href="#price" class="info-link">Прайс-лист услуг</a></li>
+                    <li class="info-item"><a href="#insurance" class="info-link">Работа со страховыми компаниями</a></li>
+                    <li class="info-item"><a href="#preparation" class="info-link">Подготовка к исследованиям</a></li>
+                </ul>
+            </div>
+            
+            <div class="card subscription-card">
+                <h3 class="card-title">Подписка на рассылку</h3>
+                <form class="subscription-form">
+                    <label for="email" class="form-label">Будьте в курсе новостей и акций:</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Ваш email" required>
+                    <button type="submit" class="submit-button">Подписаться</button>
+                </form>
+            </div>
+        </aside>
+
+        <footer class="main-footer">
+            <p class="copyright">2025 Поликлиника "Добро и позитив".</p>
+            <nav class="footer-nav">
+                <a href="#privacy" class="footer-link">Политика конфиденциальности</a>
+                <a href="#license" class="footer-link">Лицензии</a>
+            </nav>
+        </footer>
+    </body>
+</html>
